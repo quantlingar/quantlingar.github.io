@@ -38,7 +38,7 @@ footer {
 .nav-background {
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 10;
 }
 
 .footer-background {
@@ -73,10 +73,6 @@ footer {
 
 .navbar a, .icon {
     margin: 1em 0;
-}
-
-.navbar a, .navbar h1 {
-    font-size: 1em;
 }
 
 .navbar h1 {
@@ -138,11 +134,18 @@ a.icon {
     margin: 0;
 }
 
-.thumbnail-container, .gallery {
+.thumbnail-container, .gallery, .albums {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.thumbnail-container, .gallery {
+    justify-content: space-between;
+}
+
+.albums {
+    justify-content: flex-start;
 }
 
 .thumbnail {
@@ -226,6 +229,32 @@ a img:hover {
     padding: 0 1em 1em 1em;
 }
 
+.see-slides {
+    margin: 0.5em 0;
+}
+
+.site-dev {
+    margin: 0;
+}
+
+.album-container {
+    position: relative;
+}
+
+.thumb-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.thumb-1 {
+    z-index: 2
+}
+
+.thumb-2 {
+    z-index: 1;
+}
+
 @media screen and (max-width: 56.25em) {
     nav, main, footer {
         width: 80%;
@@ -233,7 +262,7 @@ a img:hover {
 }
 
 @media screen and (max-width: 43em) {
-    .thumbnail-container, .gallery, .people {
+    .thumbnail-container, .gallery, .people, .albums {
         justify-content: space-around;
     }
 }

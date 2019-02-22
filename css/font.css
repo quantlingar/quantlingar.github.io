@@ -10,12 +10,37 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+.navbar a, .navbar h1 {
+    font-size: 1em;
+}
+
 a {
     text-decoration: none;
 }
 
+.see-slides {
+    font-weight: bold;
+}
+
+.site-dev {
+    font-size: 80%;
+}
+
 @media screen and (max-width: 32em) {
     body {
+        font-size: 80%;
+    }
+    
+    .fa {
+        padding-top: 0.2em;
+        font-size: 1.2em;
+    }
+    
+    .navbar h1 {
+        font-size: 1.2em;
+    }
+    
+    .site-dev {
         font-size: 90%;
     }
 }
