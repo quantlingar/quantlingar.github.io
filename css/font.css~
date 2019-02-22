@@ -39,4 +39,8 @@ a {
     .navbar h1 {
         font-size: 1.2em;
     }
+    
+    .site-dev {
+        font-size: 90%;
+    }
 }
