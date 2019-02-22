@@ -15,31 +15,29 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100%;
-    position:relative;
+    position: relative;
 }
 
 nav {
-    margin: 0px 26px;
-}
-
-main, footer {
-    margin: 26px;
+    margin: 0 1.625em;
 }
 
 nav, main, footer {
-    width: 800px;
+    width: 50em;
+}
+
+main, footer {
+    margin: 1.625em;
 }
 
 footer {
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 0.375em;
 }
-
-
 
 .nav-background {
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 1;
 }
 
@@ -64,21 +62,21 @@ footer {
 
 .navbar a {
   float: left;
-  padding: 0px 0px;
+  padding: 0;
   text-align: left;
   text-decoration: none;
 }
 
 .topnav a {
-  padding: 0px 16px;
+    padding: 0 1em;
 }
 
 .navbar a, .icon {
-    margin: 14px 0px;
+    margin: 1em 0;
 }
 
 .navbar a, .navbar h1 {
-    font-size: 17px;
+    font-size: 1em;
 }
 
 .navbar h1 {
@@ -98,21 +96,16 @@ footer {
 }
 
 .sect-art {
-  padding: 16px 16px;
+  margin: 2em 1em;
 }
 
 .preh1 {
-    margin-top: 0px;
+    margin-top: 0;
     padding: 0;
 }
 
-
 #nav-links {
     display: block;
-}
-
-a {
-    text-decoration: none;
 }
 
 a.icon {
@@ -122,29 +115,27 @@ a.icon {
   top: 0;
 }
 
-.pages {
-    text-align: center;
-}
-
-.gallery-img {
-    border-radius: 4px;
-    max-width: 100%;
-    height: auto;
-}
-
 .talk-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
-.talk-text h2, .talk-text h4 {
+.talk-text {
+    padding: 0.6em 0 0 0;
+}
+
+.talk-text h2 {
     margin: 0;
 }
 
-.gallery-img:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.talk-text h4 {
+    margin: 0 0 0.6em 0;
+}
+
+.talk-text p {
+    padding: 0;
+    margin: 0;
 }
 
 .thumbnail-container, .gallery {
@@ -155,8 +146,9 @@ a.icon {
 }
 
 .thumbnail {
-    padding: 3px;
-    width: 250px;
+    padding: 0.25em;
+    width: 16em;
+    height: auto;
 }
 
 a img:hover {
@@ -165,7 +157,45 @@ a img:hover {
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-@media screen and (max-width: 700px) {
+.people {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.staff {
+    width: 16em;
+}
+
+.staff h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.staff h4 {
+    margin-top: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.talk-thumbnail {
+    margin: 0.6em 1em 0 0;
+    height: 12em;
+    width: auto;
+    float: left;
+}
+
+.footer-sep {
+    margin-top: 6em;
+}
+
+.see-more {
+    text-align: center;
+}	
+
+@media screen and (max-width: 43.75em) {
   .navbar {
     flex-direction: column;
   }
@@ -192,31 +222,20 @@ a img:hover {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 56.25em) {
     nav, main, footer {
         width: 80%;
     }
 }
 
-.people {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+@media screen and (max-width: 43em) {
+    .thumbnail-container, .gallery, .people {
+        justify-content: space-around;
+    }
 }
 
-.staff {
-    width: 250px;
-}
-
-.staff h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.staff h4 {
-    margin-top: 0;
-}
-
-.hidden {
-    display: none;
+@media screen and (max-width: 32em) {
+    .talk-thumbnail {
+        float: unset;
+    }
 }
