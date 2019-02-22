@@ -222,10 +222,6 @@ a img:hover {
   }
 }
 
-.fa {
-    padding: 0 1em 1em 1em;
-}
-
 @media screen and (max-width: 56.25em) {
     nav, main, footer {
         width: 80%;
