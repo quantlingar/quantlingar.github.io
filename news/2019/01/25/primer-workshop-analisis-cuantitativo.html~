@@ -53,22 +53,6 @@
                     <p>En el simposio del día sábado un grupo de especialistas en distintas ramas que utilizan los métodos cuantitativos para el estudio del lenguaje (psicolingüística, humanidades digitales, procesamiento del lenguaje natural, lingüística histórica, biolingüística, etc.) harán exposiciones sobre su área de experticia. Para la actividad del día sábado no es necesaria la inscripción previa.</p>
                     <a target="_blank" href="Programa_ACDL_2019.pdf"><span class="see-slides">Ver el programa del simposio</span></a>
                 </section>
-                <div id="disqus_thread"></div>
-<script>
-
-var disqus_config = function () {
-this.page.url = "https://quantlingar.github.io/news/2019/01/25/primer-workshop-analisis-cuantitativo.html";
-this.page.identifier = "https://quantlingar.github.io/news/2019/01/25/primer-workshop-analisis-cuantitativo.html";
-};
-
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://quantlingar.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             </main>
         </div>
         <div class="footer-sep"></div>
