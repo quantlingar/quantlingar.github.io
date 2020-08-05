@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+ <html lang="es">
+    <head>
+        <title>Charla: Phonetic fieldwork and experiments with phonfieldwork package for R | QuantLing@Ar</title>
+        <meta name="description" content="Phonetic fieldwork and experiments with phonfieldwork package for R" /> 
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="../../../../css/font.css" />
+        <link rel="stylesheet" href="../../../../css/main.css" />
+        <link rel="stylesheet" href="../../../../css/layout.css" />
+        <link rel="stylesheet" href="../../../../css/colors.css" />
+        <link rel="stylesheet" href="../../../../css/slides.css" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        
+
+
+        <!-- Sharing -->
+        <meta property="og:url" content="https://quantlingar.gesel.io/news/2020/08/05/charla-moroz-phonfieldwork.html" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="news" />
+        <meta property="og:description" content="Phonetic fieldwork and experiments with phonfieldwork package for R." />
+        <meta property="og:image" content="PORTADA" /><!-- MODIFICAAR -->
+        <meta property="og:site_name" content="QuantLing@Ar" />
+        <meta property="twitter:card" content="summary_large_image" />
+    </head>
+    <body>
+        <div class="nav-background">
+            <nav class="navbar">
+                <a href="../../../../"><h1>QuantLing@Ar</h1></a>
+                <div class ="hamburger-bar">
+                    <div id="nav-links" class="topnav">
+                        <a href="../../../../news">Novedades</a>
+                        <a href="../../../../gallery">Galería</a>
+                        <a href="../../../../talks/">Charlas</a>
+                        <a href="../../../../us/">Quiénes somos</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div class="main-background">
+            <main>
+                <section class="sect-art">
+                    <time>05/08/2020</time>
+                    <h2 class="preh1">Charla: <em>Phonetic fieldwork and experiments with phonfieldwork package for R</em></h1>
+                        <p>El Grupo de Estadística para el Estudio del Lenguaje (<a href="https://gesel.github.io/" target="_blank">GESEL</a>) invita a una charla online el sábado 8 de agosto a las 13 horas en la cual el Dr. George Moroz (National Research University - Higher School of Economics, Rusia) presentará la librería <code>phonfieldwork</code> para el lenguaje de programación R, un desarrollo de su autoría destinado a facilitar el trabajo con datos fonéticos.</p>
+                
+                        <p>La charla tiene cupo limitado y será <strong>enteramente en inglés</strong>. Si querés participar, por favor completá <a href="https://forms.gle/UKpwqM9HZq1kNWYCA" target="_blank">este formulario</a>. Si tenés alguna consulta, podés escribir a <a href="mailto:gesel.contacto@gmail.com">gesel.contacto@gmail.com</a>.</p>
+            
+                        <p>El evento cuenta con el aval del <a href="http://iflh.institutos.filo.uba.ar/" target="_blank">Instituto de Filología y Literaturas Hispánicas "Dr. Amado Alonso"</a> de la Facultad de Filosofía y Letras de la Universidad de Buenos Aires.</p>
+                        
+                        <div><span class ="see-slides">Phonetic fieldwork and experiments with phonfieldwork package for R<br />
+                        Dr. George Moroz (National Research University - Higher School of Economics, Rusia)</span></div>
+
+                        <p>There are a lot of different typical tasks that have to be solved during phonetic research and experiments. This includes creating a presentation that will contain all stimuli, renaming and concatenating multiple sound files recorded during a session, automatic annotation in ‘Praat’ TextGrids (this is one of the sound annotation standards provided by ‘Praat’ software, see Boersma & Weenink 2018 <a href="http://www.fon.hum.uva.nl/praat/" target="_blank">http://www.fon.hum.uva.nl/praat/</a>), creating an html table with annotations and spectrograms, and converting multiple formats (‘Praat’ TextGrid, ‘EXMARaLDA’, ‘ELAN’, subtitles .srt, and .txt from Audacity). All of these tasks can be solved by a mixture of different tools (any programming language has programs for automatic renaming, and Praat contains scripts for concatenating and renaming files, etc.). phonfieldwork provides a functionality that will make it easier to solve those tasks independently of any additional tools. You can also compare the functionality with other packages: ‘rPraat’, ‘textgRid’. During the talk I would like to show the functionality of the package and discuss your ideas about its development. Tutorial is available online. Knowledge of any programming language <strong>is not</strong> obligatory.</p>
+                    </section>
+                <div id="disqus_thread"></div>
+<script>
+
+var disqus_config = function () {
+this.page.url = "https://quantlingar.github.io/news/2020/08/05/charla-moroz-phonfieldwork.html";
+this.page.identifier = "https://quantlingar.github.io/news/2020/08/05/charla-moroz-phonfieldwork.html";
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://quantlingar.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+            </main>
+        </div>
+        <div class="footer-sep"></div>
+        
+
+        <div class="footer-background">
+            <footer>
+                <span><a href="../../../../codigodeconducta.html">Código de conducta</a> | <a href="mailto:quantlingar@gmail.com">Contacto</a></span><br />
+                <span class="site-dev">© 2019 QuantLing@Ar | Web creada por <a href="mailto:santiagogualchi@gmail.com">Santiago Gualchi</a></span>
+            </footer>
+        </div>
+
+        <script>
+            // hamburger
+            
+            function hamburger() {
+                var x = document.getElementById("nav-links");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+            }
+        </script>
+    </body>
+</html>
